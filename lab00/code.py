@@ -10,7 +10,7 @@ def fizzbuzz(num):
   if num % 15 == 0: # edit this line
     print(f"{num}: fizzbuzz")
   elif num % 3 == 0: # edit this line
-    print(f"{num}: fuzz")
+    print(f"{num}: fizz")
   elif num % 5 == 0:
     print(f"{num}: buzz")
 
