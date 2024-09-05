@@ -20,7 +20,7 @@ int main() {
   char* long_message = "Here's a really long string";
 
   // TODO: Copy the string in long_message to message
-  strncpy(message, long_message, sizeof(message));
+  strncpy(message, long_message, strlen(message));
 
   // Print out the value after we change message
   printf("After copying: %s\n", message);
